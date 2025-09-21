@@ -1,0 +1,47 @@
+<div class="container my-4">
+  <!-- Banner principal -->
+  <div class="banner mb-5">
+    <img src="/bannertuco.png" class="img-fluid w-100" alt="Banner Tuco’s Tattoo">
+  </div>
+  <h1 class="gallery-title">Galería de Trabajos</h1>
+
+  
+ <iframe src="https://www.juicer.io/api/feeds/tucostattoo/iframe" frameborder="0" width="1000" height="1000" style="display:block;margin:0 auto;"></iframe>
+ 
+ 
+  <!-- <div class="tag-buttons">
+    <button class="btn btn-outline-dark" [class.active]="selectedTagId === null" (click)="onTagSelect(null)">Todos</button>
+    <button *ngFor="let tag of tags" class="btn btn-outline-dark" [class.active]="selectedTagId === tag.id" (click)="onTagSelect(tag.id)">
+      {{ tag.name }}
+    </button>
+  </div>
+
+  
+  <div class="photo-grid">
+    <div *ngFor="let photo of photos" class="photo-card">
+      <img [src]="'http://localhost:8080/media/' + photo.filename" alt="Trabajo" loading="lazy" (click)="openModal(photo)">
+      <div class="card-body">
+        <h5 class="card-title">{{ photo.originalFilename }}</h5>
+        <p class="card-text">{{ photo.description || 'Sin descripción' }}</p>
+        <p class="photo-tags">{{ getTagNames(photo) }}</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="photoModalLabel">Detalle del Trabajo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImage" src="" class="img-fluid" alt="Trabajo">
+          <p id="modalDescription" class="mt-3"></p>
+          <p id="modalTags" class="text-muted"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
